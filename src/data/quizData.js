@@ -1,5 +1,5 @@
-export const CHECKOUT_URL = '#';
-export const DOWNSELL_CHECKOUT_URL = '#';
+export const CHECKOUT_URL = 'https://go.centerpag.com/PPU38CQGOG7';
+export const DOWNSELL_CHECKOUT_URL = 'https://go.centerpag.com/PPU38CQGOGA';
 
 export const ASSETS = {
   logo: '/assets/LOGO3-WGBt60gj.webp',
