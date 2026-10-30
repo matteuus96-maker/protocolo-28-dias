@@ -1,56 +1,448 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/webp" href="/assets/LOGO3-WGBt60gj.webp" />
-    <link rel="apple-touch-icon" href="/assets/LOGO3-WGBt60gj.webp" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Protocolo Glúteos Brasileños | Entrenamiento para Glúteos</title>
-    <meta name="description" content="Descubre un protocolo progresivo de entrenamiento para fortalecer, elevar y definir tus glúteos desde casa o en el gimnasio." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
-    <!-- Meta Pixel Code -->
-    <script>
-      (function (win, doc, tag, src) {
-        if (win.fbq) {
-          return;
-        }
-        const fbq = function (...args) {
-          if (fbq.callMethod) {
-            fbq.callMethod(...args);
-          } else {
-            fbq.queue.push(args);
-          }
-        };
-        if (!win._fbq) {
-          win._fbq = fbq;
-        }
-        fbq.push = fbq;
-        fbq.loaded = true;
-        fbq.version = '2.0';
-        fbq.queue = [];
-        const scriptElem = doc.createElement(tag);
-        scriptElem.async = true;
-        scriptElem.src = src;
-        const firstScript = doc.getElementsByTagName(tag)[0];
-        if (firstScript && firstScript.parentNode) {
-          firstScript.parentNode.insertBefore(scriptElem, firstScript);
-        } else {
-          doc.head.appendChild(scriptElem);
-        }
-        win.fbq = fbq;
-      })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-      window.fbq('init', '1773060317331440');
-      window.fbq('track', 'PageView');
-    </script>
-    <!-- End Meta Pixel Code -->
-  </head>
-  <body>
-    <noscript>
-      <img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=1773060317331440&ev=PageView&noscript=1" />
-    </noscript>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Levanta, redondea y reafirma tus glúteos en 28 días entrenando en casa, 8 a 10 minutos al día. Pago único de $9,90 y garantía de 7 días.">
+<meta property="og:title" content="Protocolo Glúteos Brasileños">
+<meta property="og:image" content="https://protocolo-gluteos.vercel.app/assets/hero-desafio.jpg">
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1773060317331440');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1773060317331440&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+<title>Protocolo Glúteos Brasileños</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Figtree:wght@400;500;700;800;900&display=swap">
+<style>
+/* Layout: una sola columna estrecha pensada para el móvil (tráfico de anuncios), bandas a todo el ancho que alternan rosa claro / blanco / ciruela, CTA fijo abajo. Paleta de marca del quiz, un solo tema a propósito. */
+:root{
+  --pink:#FF2A85; --pink-deep:#E0006E; --plum:#2B0B2E; --plum-2:#3E1043;
+  --blush:#FFF2F7; --line:#F0D2E4; --muted:#7A5F77; --yellow:#FFE600;
+  --green:#10B981; --green-deep:#059669; --white:#FFFFFF;
+  --f-display:"Archivo Black","Arial Black",Impact,sans-serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--white);color:var(--plum);font-family:var(--f-body);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+img,video{max-width:100%;display:block}
+img{height:auto}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;line-height:1.08;text-wrap:balance;margin:0;letter-spacing:-.01em}
+p{margin:0}
+a{color:inherit}
+.band{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:56px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+.blush{background:var(--blush)}
+.dark{background:var(--plum);color:var(--white)}
+.eyebrow{font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--pink)}
+.dark .eyebrow{color:var(--yellow)}
+h2{font-size:clamp(28px,7.4vw,38px)}
+h2 em{font-style:normal;color:var(--pink)}
+.dark h2 em{color:var(--yellow)}
+.lead{font-size:18px;color:var(--muted)}
+.dark .lead{color:#E9D3E6}
+.center{text-align:center}
+
+/* top bar */
+.topbar{background:var(--plum);color:var(--white);text-align:center;font-weight:800;font-size:13px;letter-spacing:.04em;padding:9px max(16px,env(safe-area-inset-right,0px)) 9px max(16px,env(safe-area-inset-left,0px))}
+.topbar b{color:var(--yellow)}
+
+/* hero */
+.hero{background:linear-gradient(180deg,var(--blush),var(--white));padding-block:28px 48px}
+.hero .wrap{gap:18px}
+.logo{border-radius:22px;box-shadow:0 18px 40px -18px rgba(224,0,110,.55)}
+.hero h1{font-size:clamp(31px,8.6vw,46px)}
+.hero h1 span{color:var(--pink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--white);border:1.5px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:700;font-size:14px}
+.rating{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px}
+.avs{display:flex}
+.avs img{width:34px;height:34px;border-radius:50%;border:2px solid var(--white);margin-left:-8px;object-fit:cover}
+.avs img:first-child{margin-left:0}
+.stars{color:#F5A400;letter-spacing:1px}
+
+/* CTA */
+.cta{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;text-decoration:none;background:linear-gradient(90deg,var(--green-deep),var(--green));color:var(--white);font-family:var(--f-display);font-size:clamp(17px,4.8vw,21px);text-transform:uppercase;letter-spacing:.01em;padding:19px 18px;border-radius:18px;box-shadow:0 14px 30px -12px rgba(5,150,105,.75);text-align:center;transition:transform .15s ease,filter .15s ease}
+.cta:hover{filter:brightness(1.07)}
+.cta:active{transform:scale(.98)}
+.cta:focus-visible{outline:4px solid var(--yellow);outline-offset:3px}
+.cta svg{flex:none}
+.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;font-size:13.5px;font-weight:700;color:var(--muted)}
+.dark .trust{color:#E9D3E6}
+.trust span::before{content:"✓ ";color:var(--green)}
+
+/* video */
+.vsl{border-radius:20px;overflow:hidden;background:#000;aspect-ratio:4/5;width:100%;box-shadow:0 18px 40px -20px rgba(43,11,46,.6)}
+.vsl video{width:100%;height:100%;object-fit:cover}
+
+/* problem */
+.split{display:grid;grid-template-columns:1fr;gap:20px}
+.photo{border-radius:20px;overflow:hidden}
+.stat{display:flex;gap:14px;align-items:center;background:var(--white);border:1.5px solid var(--line);border-radius:18px;padding:16px}
+.stat strong{font-family:var(--f-display);font-size:40px;color:var(--pink);line-height:1;flex:none}
+.good{background:var(--plum);color:var(--white);border-radius:18px;padding:18px 18px}
+.good b{color:var(--yellow)}
+
+/* checklist */
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.checks li{display:flex;gap:12px;align-items:flex-start;background:var(--white);border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;font-weight:600}
+.checks li::before{content:"";flex:none;width:22px;height:22px;margin-top:1px;border-radius:50%;background:var(--pink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/14px no-repeat}
+
+/* timeline */
+.weeks{display:flex;flex-direction:column;gap:0;border-left:3px solid rgba(255,230,0,.35);margin-left:10px}
+.week{position:relative;padding:0 0 22px 24px}
+.week:last-child{padding-bottom:0}
+.week::before{content:"";position:absolute;left:-12.5px;top:2px;width:22px;height:22px;border-radius:50%;background:var(--pink);border:3px solid var(--plum)}
+.week .w{font-weight:800;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--yellow)}
+.week h3{font-size:21px;margin:4px 0 4px}
+.week p{color:#E9D3E6;font-size:16px}
+.bar{height:8px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden;margin-top:10px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--pink),var(--yellow));border-radius:99px}
+.feats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.feat{background:var(--plum-2);border-radius:14px;padding:14px;font-weight:700;font-size:15px}
+.feat small{display:block;font-weight:500;color:#E9D3E6;font-size:13.5px;margin-top:2px}
+
+/* results */
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ba figure{margin:0;border-radius:16px;overflow:hidden;background:var(--blush);position:relative}
+.ba img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.ba figcaption{position:absolute;left:8px;bottom:8px;background:var(--plum);color:var(--white);font-size:12px;font-weight:800;padding:4px 9px;border-radius:99px}
+.loops{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.loops video{width:100%;border-radius:16px;aspect-ratio:9/16;object-fit:cover;background:var(--blush)}
+.reviews{display:flex;flex-direction:column;gap:12px}
+.review{background:var(--white);border:1.5px solid var(--line);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.who{display:flex;gap:12px;align-items:center}
+.who img{width:46px;height:46px;border-radius:50%;object-fit:cover}
+.who b{display:block;line-height:1.2}
+.who small{color:var(--muted);font-size:13.5px}
+.ver{color:var(--green-deep);font-weight:800;font-size:12.5px}
+
+/* offer */
+.offer{background:var(--white);border:3px solid var(--pink);border-radius:24px;overflow:hidden;box-shadow:0 24px 50px -24px rgba(224,0,110,.55)}
+.offer-head{background:var(--pink);color:var(--white);text-align:center;padding:12px;font-family:var(--f-display);font-size:16px;letter-spacing:.02em;text-transform:uppercase}
+.offer-body{padding:20px 18px 22px;display:flex;flex-direction:column;gap:16px}
+.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.items li{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px dashed var(--line);align-items:baseline}
+.items li div{min-width:0}
+.items li b{display:block;font-size:16px;line-height:1.3}
+.items li small{color:var(--muted);font-size:13.5px}
+.items .v{flex:none;font-weight:800;font-variant-numeric:tabular-nums;color:var(--muted);text-decoration:line-through}
+.items .free{flex:none;font-weight:900;color:var(--green-deep);font-size:13px;letter-spacing:.06em}
+.tag{display:inline-block;background:var(--yellow);color:var(--plum);font-weight:900;font-size:11px;letter-spacing:.08em;padding:2px 7px;border-radius:6px;margin-right:6px;vertical-align:2px}
+.price{text-align:center;background:var(--blush);border-radius:18px;padding:18px 12px}
+.price .from{color:var(--muted);font-weight:700}
+.price .from s{color:#D0312D}
+.price .now{font-family:var(--f-display);font-size:64px;line-height:1;color:var(--green-deep);margin:6px 0 4px;font-variant-numeric:tabular-nums}
+.price .now sup{font-size:28px;vertical-align:28px;margin-right:2px}
+.price .once{font-weight:800;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+.save{font-weight:700;font-size:14.5px;color:var(--plum);margin-top:6px}
+.pay{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;font-size:12.5px;font-weight:700;color:var(--muted)}
+.pay span{border:1px solid var(--line);border-radius:6px;padding:3px 8px}
+
+/* guarantee */
+.guarantee{display:flex;gap:18px;align-items:center}
+.seal{flex:none;width:104px;height:104px;border-radius:50%;background:var(--yellow);color:var(--plum);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;box-shadow:inset 0 0 0 5px var(--plum),inset 0 0 0 8px var(--yellow),inset 0 0 0 10px var(--plum)}
+.seal b{font-family:var(--f-display);font-size:38px;line-height:1}
+.seal span{font-weight:900;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+
+/* coach */
+.coach-name{font-family:var(--f-display);font-size:30px}
+
+/* faq */
+.faq{display:flex;flex-direction:column;gap:10px}
+.faq details{background:var(--white);border:1.5px solid var(--line);border-radius:14px;padding:0 16px}
+.faq summary{cursor:pointer;list-style:none;font-weight:800;padding:16px 28px 16px 0;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:0;top:12px;font-family:var(--f-display);font-size:22px;color:var(--pink);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq summary:focus-visible{outline:3px solid var(--pink);outline-offset:4px;border-radius:6px}
+.faq details p{padding:0 0 16px;color:var(--muted)}
+
+footer{background:var(--plum);color:#C9AFC6;font-size:12.5px;text-align:center}
+footer .wrap{gap:10px}
+
+/* sticky CTA */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);padding:10px max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));transform:translateY(110%);transition:transform .25s ease}
+.sticky.show{transform:none}
+.sticky .in{max-width:560px;margin:0 auto;display:flex;align-items:center;gap:12px}
+.sticky .p{flex:none;line-height:1.1}
+.sticky .p s{color:var(--muted);font-size:13px;font-weight:700}
+.sticky .p b{display:block;font-family:var(--f-display);font-size:24px;color:var(--green-deep)}
+.sticky .cta{padding:14px 12px;font-size:16px;border-radius:14px;box-shadow:none}
+
+@media (min-width:760px){
+  .split{grid-template-columns:1fr 1fr;align-items:center}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<div class="topbar">PRECIO DE LANZAMIENTO · <b>90% OFF</b> · PAGO ÚNICO DE $9,90</div>
+
+<!-- HERO -->
+<section class="band hero">
+  <div class="wrap">
+    <img class="logo" src="assets/hero-desafio.jpg" alt="Desafío Glúteos Brasileños con el Coach Luca" width="900" height="900">
+    <p class="eyebrow">Entrenamiento femenino especializado</p>
+    <h1>Levanta, redondea y reafirma tus glúteos en <span>28 días</span> entrenando en casa</h1>
+    <p class="lead">El Protocolo Glúteos Brasileños activa tus glúteos con rutinas guiadas de 8 a 10 minutos al día. Sin gimnasio, sin pesas pesadas y sin cirugías.</p>
+    <div class="chips">
+      <span class="chip">8-10 min/día</span>
+      <span class="chip">En casa o en el gimnasio</span>
+      <span class="chip">Vídeos paso a paso</span>
+      <span class="chip">Para principiantes</span>
+    </div>
+    <a class="cta" data-checkout href="https://go.centerpag.com/PPU38CQGOG7">Quiero mi protocolo por $9,90 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="trust"><span>Acceso inmediato</span><span>Pago seguro</span><span>Garantía de 7 días</span></div>
+    <div class="rating">
+      <div class="avs"><img src="assets/av1.png" alt=""><img src="assets/av2.png" alt=""><img src="assets/av3.png" alt=""></div>
+      <div><span class="stars" aria-label="4,9 de 5 estrellas">★★★★★</span> 4,9/5 · +14.800 alumnas</div>
+    </div>
+  </div>
+</section>
+
+<!-- VSL -->
+<section class="band blush">
+  <div class="wrap">
+    <p class="eyebrow center">Mira antes de empezar</p>
+    <h2 class="center">El Coach Luca te explica el método en este vídeo</h2>
+    <div class="vsl"><video src="assets/vsl.mp4" poster="assets/vsl-poster.jpg" controls playsinline preload="none"></video></div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="band">
+  <div class="wrap">
+    <p class="eyebrow">Información importante</p>
+    <h2>¿Por qué entrenas duro y tus glúteos <em>no reaccionan</em>?</h2>
+    <div class="split">
+      <img class="photo" src="assets/activacion.jpg" alt="El Coach Luca corrige la técnica de una alumna: solo hay que activar esta zona" width="720" height="1279" loading="lazy">
+      <div class="wrap" style="gap:14px">
+        <p>Se llama <b>amnesia glútea</b>. Cuando el glúteo no se activa bien, el cuerpo pasa el esfuerzo a la espalda baja y a los muslos.</p>
+        <div class="stat"><strong>95%</strong><span>de las mujeres sufre falta de activación glútea.</span></div>
+        <p>Tu entrenamiento te cansa, pero el glúteo casi no trabaja. No es falta de esfuerzo: es un problema de activación neuromuscular.</p>
+        <div class="good"><b>La buena noticia:</b> esto se puede reprogramar por completo con la estimulación progresiva del Protocolo Glúteos Brasileños.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR WHO -->
+<section class="band blush">
+  <div class="wrap">
+    <p class="eyebrow">¿Es para ti?</p>
+    <h2>Este protocolo es para ti si…</h2>
+    <ul class="checks">
+      <li>Sientes que tus glúteos son pequeños o les falta volumen</li>
+      <li>Te molesta la flacidez, la celulitis o la falta de elevación</li>
+      <li>Dejaste de usar ropa ajustada o traje de baño por inseguridad</li>
+      <li>Tienes poco tiempo libre y no puedes pasar horas en el gimnasio</li>
+      <li>Quieres entrenar en casa, sin pesas pesadas</li>
+      <li>Eres principiante y necesitas un paso a paso guiado</li>
+    </ul>
+    <a class="cta" data-checkout href="https://go.centerpag.com/PPU38CQGOG7">Sí, quiero empezar hoy <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+
+<!-- METHOD -->
+<section class="band dark">
+  <div class="wrap">
+    <p class="eyebrow">El método</p>
+    <h2>Tu evolución con el protocolo en <em>28 días</em></h2>
+    <p class="lead">Un plan progresivo de 4 fases, con estímulos de 8 a 10 minutos al día.</p>
+    <div class="weeks">
+      <div class="week"><span class="w">Semana 1</span><h3>Activación inicial</h3><p>Aprendes a encender el glúteo y a sentirlo trabajar en cada ejercicio.</p><div class="bar"><i style="width:20%"></i></div></div>
+      <div class="week"><span class="w">Semana 2</span><h3>Más firmeza</h3><p>Sube el estímulo y empiezas a notar el glúteo más duro y activo.</p><div class="bar"><i style="width:50%"></i></div></div>
+      <div class="week"><span class="w">Semana 3</span><h3>Contorno y elevación</h3><p>Trabajas la parte superior del glúteo para el efecto levantado.</p><div class="bar"><i style="width:80%"></i></div></div>
+      <div class="week"><span class="w">Semana 4</span><h3>Glúteos definidos</h3><p>Más firmes, elevados y definidos, con una rutina que ya sabes seguir sola.</p><div class="bar"><i style="width:96%"></i></div></div>
+    </div>
+    <div class="feats">
+      <div class="feat">Sin gimnasio<small>Solo tu peso corporal</small></div>
+      <div class="feat">Sin dolor articular<small>Bajo impacto</small></div>
+      <div class="feat">Desde el móvil<small>App con vídeos en HD</small></div>
+      <div class="feat">Sin dietas extremas<small>Guía de alimentación sencilla</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section class="band">
+  <div class="wrap">
+    <p class="eyebrow">+14.800 alumnas</p>
+    <h2>Resultados reales de alumnas</h2>
+    <div class="ba">
+      <figure><img src="assets/ba1.jpg" alt="Antes y después de una alumna" loading="lazy"><figcaption>14 días</figcaption></figure>
+      <figure><img src="assets/ba2.jpg" alt="Antes y después de una alumna" loading="lazy"><figcaption>21 días</figcaption></figure>
+      <figure><img src="assets/ba3.jpg" alt="Antes y después de una alumna" loading="lazy"><figcaption>28 días</figcaption></figure>
+      <figure><img src="assets/ba4.jpg" alt="Antes y después de una alumna" loading="lazy"><figcaption>28 días</figcaption></figure>
+      <figure><img src="assets/ba5.jpg" alt="Antes y después de una alumna" loading="lazy"><figcaption>Efecto push-up</figcaption></figure>
+      <figure><img src="assets/ba6.jpg" alt="Antes y después de una alumna" loading="lazy"><figcaption>Sin flacidez</figcaption></figure>
+    </div>
+    <div class="loops">
+      <video src="assets/loop1.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Ejercicio del protocolo"></video>
+      <video src="assets/loop2.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Ejercicio del protocolo"></video>
+    </div>
+    <div class="reviews">
+      <div class="review">
+        <div class="who"><img src="assets/av1.png" alt=""><div><b>Carolina M.</b><small>Madrid, España · 34 años</small></div></div>
+        <p>“En solo 3 semanas mis glúteos se ven visiblemente levantados y firmes. Las rutinas de 8 minutos son superprácticas en mi día a día.”</p>
+        <span class="ver">Alumna verificada ✓</span>
+      </div>
+      <div class="review">
+        <div class="who"><img src="assets/av2.png" alt=""><div><b>Valeria G.</b><small>Ciudad de México, México · 29 años</small></div></div>
+        <p>“No creía que sin gimnasio diera este resultado. La celulitis desapareció casi por completo. ¡100% recomendado!”</p>
+        <span class="ver">Alumna verificada ✓</span>
+      </div>
+      <div class="review">
+        <div class="who"><img src="assets/av3.png" alt=""><div><b>Mariana R.</b><small>Bogotá, Colombia · 41 años</small></div></div>
+        <p>“Tengo dos hijos y poco tiempo libre. Este programa me devolvió la confianza para usar traje de baño sin pena. ¡Muchas gracias al Coach Luca!”</p>
+        <span class="ver">Alumna verificada ✓</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="band blush" id="oferta">
+  <div class="wrap">
+    <img class="photo" src="assets/app.jpg" alt="Alumna usando la app del Método Glúteos Brasileños en el móvil" width="720" height="1079" loading="lazy" style="max-height:420px;object-fit:cover;object-position:center 30%">
+    <h2 class="center">Todo lo que recibes hoy</h2>
+    <div class="offer">
+      <div class="offer-head">Acceso de por vida</div>
+      <div class="offer-body">
+        <ul class="items">
+          <li><div><b>App exclusiva Protocolo Glúteos Brasileños</b><small>Entrenamientos guiados en vídeo, paso a paso</small></div><span class="v">$97</span></li>
+          <li><div><b>Rutinas de 8 a 10 min/día con el Coach Luca</b><small>Activación neuromuscular progresiva, sin gimnasio</small></div><span class="v">$67</span></li>
+          <li><div><b>Guía nutricional anti-flacidez</b><small>Plan práctico para volumen y firmeza, sin pasar hambre</small></div><span class="v">$47</span></li>
+          <li><div><b><span class="tag">BONO</span>SOS Celulitis &amp; Efecto Push-Up 14D</b><small>Drenaje linfático casero para alisar la piel</small></div><span class="free">GRATIS</span></li>
+          <li><div><b><span class="tag">BONO</span>Rutina rápida de 15 minutos</b><small>Para los días con poco tiempo</small></div><span class="free">GRATIS</span></li>
+          <li><div><b><span class="tag">BONO</span>Guía de tés metabólicos</b><small>Infusiones naturales para desinflamar el abdomen</small></div><span class="free">GRATIS</span></li>
+          <li><div><b><span class="tag">BONO</span>Guía de movilidad de cadera y piernas</b><small>Preparación articular para ejecutar mejor</small></div><span class="free">GRATIS</span></li>
+          <li><div><b><span class="tag">BONO</span>Calendario imprimible de progreso</b><small>Sigue tu evolución durante los 28 días</small></div><span class="free">GRATIS</span></li>
+          <li><div><b><span class="tag">BONO</span>Comunidad VIP de alumnas</b><small>Apoyo y motivación para no rendirte</small></div><span class="free">GRATIS</span></li>
+        </ul>
+        <div class="price">
+          <div class="from">Valor total: <s>$211,00</s></div>
+          <div class="now"><sup>$</sup>9,90</div>
+          <div class="once">Pago único · sin mensualidades</div>
+          <p class="save">Ahorras $201,10 con el precio de lanzamiento</p>
+        </div>
+        <a class="cta" data-checkout href="https://go.centerpag.com/PPU38CQGOG7">Sí, quiero mi acceso por $9,90 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="trust"><span>Acceso inmediato al email</span><span>Pago 100% seguro</span><span>Garantía de 7 días</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="band">
+  <div class="wrap">
+    <div class="guarantee">
+      <div class="seal"><b>7</b><span>días de<br>garantía</span></div>
+      <div>
+        <h2 style="font-size:clamp(24px,6vw,30px)">Riesgo cero para ti</h2>
+      </div>
+    </div>
+    <p>Prueba el Protocolo Glúteos Brasileños durante 7 días. Si no estás plenamente satisfecha con las rutinas, solicita la devolución y te reembolsamos el 100% de tu dinero. Sin preguntas.</p>
+  </div>
+</section>
+
+<!-- COACH -->
+<section class="band blush">
+  <div class="wrap">
+    <p class="eyebrow">Tu entrenador</p>
+    <img class="photo" src="assets/coach.jpg" alt="El Coach Luca con una alumna" width="720" height="900" loading="lazy">
+    <p class="coach-name">Coach Luca 🇧🇷</p>
+    <p><b>Especialista en biomecánica glútea y activación neuromuscular.</b> Creador del Protocolo Glúteos Brasileños.</p>
+    <p>El Coach Luca desarrolló un sistema de estimulación profunda que levanta, esculpe y aumenta los glúteos en casa, sin dolor en las articulaciones. Más de 14.800 alumnas ya entrenaron con su método.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="band">
+  <div class="wrap">
+    <h2>Preguntas frecuentes</h2>
+    <div class="faq">
+      <details><summary>¿Necesito gimnasio o pesas?</summary><p>No. Todas las rutinas se hacen en casa con tu propio peso corporal. Si vas al gimnasio, también puedes hacerlas allí.</p></details>
+      <details><summary>Soy principiante, ¿puedo hacerlo?</summary><p>Sí. El protocolo empieza por la activación básica y sube de nivel poco a poco. Cada ejercicio tiene su vídeo explicativo.</p></details>
+      <details><summary>¿Cuánto tiempo necesito al día?</summary><p>Entre 8 y 10 minutos. Para los días con más tiempo tienes la rutina extra de 15 minutos.</p></details>
+      <details><summary>¿Cómo recibo el acceso?</summary><p>Justo después del pago recibes el acceso en tu email. Entras desde el móvil, la tablet o la computadora.</p></details>
+      <details><summary>¿Es un pago único o una suscripción?</summary><p>Es un pago único de $9,90. No hay mensualidades y el acceso es de por vida.</p></details>
+      <details><summary>¿Y si no me gusta?</summary><p>Tienes 7 días de garantía. Si no estás satisfecha, pides la devolución y te devolvemos el 100% de tu dinero.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="band dark">
+  <div class="wrap center">
+    <h2>Tus glúteos más firmes y elevados empiezan <em>hoy</em></h2>
+    <p class="lead">8 a 10 minutos al día, desde casa, por un pago único de $9,90.</p>
+    <a class="cta" data-checkout href="https://go.centerpag.com/PPU38CQGOG7">Quiero empezar el protocolo <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="trust"><span>Acceso inmediato</span><span>Pago seguro</span><span>Garantía de 7 días</span></div>
+  </div>
+</section>
+
+<footer class="band" style="padding-block:28px">
+  <div class="wrap">
+    <p>© Protocolo Glúteos Brasileños · Coach Luca</p>
+    <p>Los resultados pueden variar de persona a persona según la constancia, la alimentación y la genética.</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky" aria-hidden="true">
+  <div class="in">
+    <div class="p"><s>$97,00</s><b>$9,90</b></div>
+    <a class="cta" data-checkout href="https://go.centerpag.com/PPU38CQGOG7" tabindex="-1">Quiero mi protocolo</a>
+  </div>
+</div>
+
+<script>
+(function(){
+  // Pasa los parámetros del anuncio (utm, fbclid, src…) al checkout para no perder el rastreo.
+  var qs = location.search.replace(/^\?/, "");
+  if (qs) {
+    document.querySelectorAll("a[data-checkout]").forEach(function(a){
+      a.href += (a.href.indexOf("?") > -1 ? "&" : "?") + qs;
+    });
+  }
+  // Clic en el checkout: evento propio (el InitiateCheckout ya lo envía el checkout de PerfectPay, no se duplica).
+  document.querySelectorAll("a[data-checkout]").forEach(function(a){
+    a.addEventListener("click", function(){
+      try { if (window.fbq) fbq("trackCustom", "ClickCheckout", {value: 9.90, currency: "USD"}); } catch(e){}
+    });
+  });
+  // CTA fijo: aparece después del hero y se oculta sobre la oferta.
+  var sticky = document.getElementById("sticky");
+  var hero = document.querySelector(".hero");
+  var oferta = document.getElementById("oferta");
+  function update(){
+    var pastHero = hero.getBoundingClientRect().bottom < 0;
+    var r = oferta.getBoundingClientRect();
+    var onOffer = r.top < innerHeight && r.bottom > 0;
+    var show = pastHero && !onOffer;
+    sticky.classList.toggle("show", show);
+    sticky.setAttribute("aria-hidden", show ? "false" : "true");
+    sticky.querySelector("a").tabIndex = show ? 0 : -1;
+  }
+  addEventListener("scroll", update, {passive:true});
+  update();
+})();
+</script>
+</body>
+</html>
