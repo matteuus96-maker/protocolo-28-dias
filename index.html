@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Levanta, redondea y reafirma tus glúteos en 28 días entrenando en casa, 8 a 10 minutos al día. Pago único de $9,90 y garantía de 7 días.">
+<meta name="description" content="Levanta, redondea y reafirma tus glúteos en 28 días entrenando en casa, 8 a 10 minutos al día. Pago único de US$9,90 y garantía de 7 días.">
 <meta property="og:title" content="Protocolo Glúteos Brasileños">
 <meta property="og:image" content="https://protocolo-gluteos.vercel.app/assets/hero-desafio.jpg">
 <!-- Meta Pixel Code -->
@@ -70,7 +70,7 @@ h2 em{font-style:normal;color:var(--pink)}
 
 /* top bar */
 .topbar{background:var(--white);text-align:center;padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px))}
-.topbar-pill{color:var(--plum);font-weight:800;font-size:13px;letter-spacing:.04em;line-height:1.35}
+.topbar-pill{display:inline-block;text-decoration:none;color:var(--plum);font-weight:800;font-size:13px;letter-spacing:.04em;line-height:1.35}
 .topbar-pill b{color:#1E9E3A;font-weight:900}
 
 /* hero */
@@ -159,9 +159,11 @@ h2 em{font-style:normal;color:var(--pink)}
 .price .from{color:var(--muted);font-weight:700}
 .price .from s{color:#D0312D}
 .price .now{font-family:var(--f-display);font-size:64px;line-height:1;color:var(--green-deep);margin:6px 0 4px;font-variant-numeric:tabular-nums}
-.price .now sup{font-size:28px;vertical-align:28px;margin-right:2px}
+.price .now sup{font-size:24px;vertical-align:28px;margin-right:4px}
+.price .local{font-size:13px;color:var(--muted);font-weight:600;margin-top:4px}
 .price .once{font-weight:800;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
 .save{font-weight:700;font-size:14.5px;color:var(--plum);margin-top:6px}
+.save a,.eyebrow-link{color:inherit;text-decoration:none}
 .pay{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;font-size:12.5px;font-weight:700;color:var(--muted)}
 .pay span{border:1px solid var(--line);border-radius:6px;padding:3px 8px}
 
@@ -210,14 +212,14 @@ footer .wrap{gap:10px}
 </head>
 <body>
 
-<div class="topbar"><span class="topbar-pill">🍑 TU CUPO ESTÁ CONFIRMADO — PROTOCOLO GLÚTEOS <b>BRASILEÑOS</b> ACTIVADO</span></div>
+<div class="topbar"><a class="topbar-pill" href="#recibes">🍑 TU CUPO ESTÁ CONFIRMADO — PROTOCOLO GLÚTEOS <b>BRASILEÑOS</b> ACTIVADO</a></div>
 <div class="timerbar"><span class="timer-pill">✅ Oferta de plan personalizado válida por: <b data-timer>15:00</b></span></div>
 
 <!-- HERO -->
 <section class="band hero">
   <div class="wrap">
     <img class="logo" src="assets/hero-desafio.jpg" alt="Desafío Glúteos Brasileños con el Coach Luca" width="900" height="900">
-    <p class="eyebrow">Entrenamiento femenino especializado</p>
+    <p class="eyebrow"><a class="eyebrow-link" href="#recibes">Entrenamiento femenino especializado</a></p>
     <h1>Levanta, redondea y reafirma tus glúteos en <span>28 días</span> entrenando en casa</h1>
     <p class="lead">El Protocolo Glúteos Brasileños activa tus glúteos con rutinas guiadas de 8 a 10 minutos al día. Sin gimnasio, sin pesas pesadas y sin cirugías.</p>
     <div class="chips">
@@ -339,15 +341,15 @@ footer .wrap{gap:10px}
 <!-- OFFER -->
 <section class="band blush" id="oferta">
   <div class="wrap">
-    <img class="photo" src="assets/app.jpg" alt="Alumna usando la app del Método Glúteos Brasileños en el móvil" width="720" height="1079" loading="lazy" style="max-height:420px;object-fit:cover;object-position:center 30%">
+    <img class="photo" src="assets/app.jpg" alt="Alumna usando la app del Protocolo Glúteos Brasileños en el móvil" width="720" height="1079" loading="lazy" style="max-height:420px;object-fit:cover;object-position:center 30%">
     <h2 class="center" id="recibes">Todo lo que recibes hoy</h2>
     <div class="offer">
       <div class="offer-head">Acceso de por vida</div>
       <div class="offer-body">
         <ul class="items">
-          <li><div><b>App exclusiva Protocolo Glúteos Brasileños</b><small>Entrenamientos guiados en vídeo, paso a paso</small></div><span class="v">$97</span></li>
-          <li><div><b>Rutinas de 8 a 10 min/día con el Coach Luca</b><small>Activación neuromuscular progresiva, sin gimnasio</small></div><span class="v">$67</span></li>
-          <li><div><b>Guía nutricional anti-flacidez</b><small>Plan práctico para volumen y firmeza, sin pasar hambre</small></div><span class="v">$47</span></li>
+          <li><div><b>App exclusiva Protocolo Glúteos Brasileños</b><small>Entrenamientos guiados en vídeo, paso a paso</small></div><span class="v">US$97</span></li>
+          <li><div><b>Rutinas de 8 a 10 min/día con el Coach Luca</b><small>Activación neuromuscular progresiva, sin gimnasio</small></div><span class="v">US$67</span></li>
+          <li><div><b>Guía nutricional anti-flacidez</b><small>Plan práctico para volumen y firmeza, sin pasar hambre</small></div><span class="v">US$47</span></li>
           <li><div><b><span class="tag">BONO</span>SOS Celulitis &amp; Efecto Push-Up 14D</b><small>Drenaje linfático casero para alisar la piel</small></div><span class="free">GRATIS</span></li>
           <li><div><b><span class="tag">BONO</span>Rutina rápida de 15 minutos</b><small>Para los días con poco tiempo</small></div><span class="free">GRATIS</span></li>
           <li><div><b><span class="tag">BONO</span>Guía de tés metabólicos</b><small>Infusiones naturales para desinflamar el abdomen</small></div><span class="free">GRATIS</span></li>
@@ -356,13 +358,14 @@ footer .wrap{gap:10px}
           <li><div><b><span class="tag">BONO</span>Comunidad VIP de alumnas</b><small>Apoyo y motivación para no rendirte</small></div><span class="free">GRATIS</span></li>
         </ul>
         <div class="price">
-          <div class="from">Valor total: <s>$211,00</s></div>
-          <div class="now"><sup>$</sup>9,90</div>
+          <div class="from">Valor total: <s>US$211,00</s></div>
+          <div class="now"><sup>US$</sup>9,90</div>
           <div class="once">Pago único · sin mensualidades</div>
-          <p class="save">Ahorras $201,10 con el precio de lanzamiento</p>
+          <div class="local">Se cobra en tu moneda local</div>
+          <p class="save"><a data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10">Ahorras US$201,10 con el precio de lanzamiento</a></p>
         </div>
         <div class="timer-box">✅ Oferta de plan personalizado válida por: <b data-timer>15:00</b></div>
-        <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10">Sí, quiero mi acceso por $9,90 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10">Sí, quiero mi acceso por US$9,90 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         <div class="trust"><span>Acceso inmediato al email</span><span>Pago 100% seguro</span><span>Garantía de 7 días</span></div>
       </div>
     </div>
@@ -402,7 +405,7 @@ footer .wrap{gap:10px}
       <details><summary>Soy principiante, ¿puedo hacerlo?</summary><p>Sí. El protocolo empieza por la activación básica y sube de nivel poco a poco. Cada ejercicio tiene su vídeo explicativo.</p></details>
       <details><summary>¿Cuánto tiempo necesito al día?</summary><p>Entre 8 y 10 minutos. Para los días con más tiempo tienes la rutina extra de 15 minutos.</p></details>
       <details><summary>¿Cómo recibo el acceso?</summary><p>Justo después del pago recibes el acceso en tu email. Entras desde el móvil, la tablet o la computadora.</p></details>
-      <details><summary>¿Es un pago único o una suscripción?</summary><p>Es un pago único de $9,90. No hay mensualidades y el acceso es de por vida.</p></details>
+      <details><summary>¿Es un pago único o una suscripción?</summary><p>Es un pago único de US$9,90. No hay mensualidades y el acceso es de por vida.</p></details>
       <details><summary>¿Y si no me gusta?</summary><p>Tienes 7 días de garantía. Si no estás satisfecha, pides la devolución y te devolvemos el 100% de tu dinero.</p></details>
     </div>
   </div>
@@ -412,7 +415,7 @@ footer .wrap{gap:10px}
 <section class="band dark">
   <div class="wrap center">
     <h2>Tus glúteos más firmes y elevados empiezan <em>hoy</em></h2>
-    <p class="lead">8 a 10 minutos al día, desde casa, por un pago único de $9,90.</p>
+    <p class="lead">8 a 10 minutos al día, desde casa, por un pago único de US$9,90.</p>
     <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10">Quiero empezar el protocolo <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     <div class="trust"><span>Acceso inmediato</span><span>Pago seguro</span><span>Garantía de 7 días</span></div>
   </div>
@@ -427,7 +430,7 @@ footer .wrap{gap:10px}
 
 <div class="sticky" id="sticky" aria-hidden="true">
   <div class="in">
-    <div class="p"><s>$211,00</s><b>$9,90</b></div>
+    <div class="p"><s>US$211,00</s><b>US$9,90</b></div>
     <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10" tabindex="-1">Quiero mi protocolo</a>
   </div>
 </div>
