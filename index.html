@@ -41,7 +41,7 @@ src="https://www.facebook.com/tr?id=1773060317331440&ev=PageView&noscript=1"></n
 :root{
   --pink:#FF2A85; --pink-deep:#E0006E; --plum:#2B0B2E; --plum-2:#3E1043;
   --blush:#FFF2F7; --line:#F0D2E4; --muted:#7A5F77; --yellow:#FFE600;
-  --green:#10B981; --green-deep:#059669; --white:#FFFFFF;
+  --green:#10B981; --neon:#B026FF; --green-night:#062B1D; --green-neon:#39FF88; --green-deep:#059669; --white:#FFFFFF;
   --f-display:"Archivo Black","Arial Black",Impact,sans-serif;
   --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   color-scheme:light;
@@ -69,8 +69,9 @@ h2 em{font-style:normal;color:var(--pink)}
 .center{text-align:center}
 
 /* top bar */
-.topbar{background:var(--plum);color:var(--white);text-align:center;font-weight:800;font-size:13px;letter-spacing:.04em;padding:9px max(16px,env(safe-area-inset-right,0px)) 9px max(16px,env(safe-area-inset-left,0px))}
-.topbar b{color:var(--yellow)}
+.topbar{background:var(--white);text-align:center;padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px))}
+.topbar-pill{color:var(--plum);font-weight:800;font-size:13px;letter-spacing:.04em;line-height:1.35}
+.topbar-pill b{color:var(--pink);font-weight:900}
 
 /* hero */
 .hero{background:linear-gradient(180deg,var(--blush),var(--white));padding-block:28px 48px}
@@ -193,6 +194,12 @@ footer .wrap{gap:10px}
 .sticky .p{flex:none;line-height:1.1}
 .sticky .p s{color:var(--muted);font-size:13px;font-weight:700}
 .sticky .p b{display:block;font-family:var(--f-display);font-size:24px;color:var(--green-deep)}
+/* cronómetro */
+.timerbar{background:var(--white);text-align:center;padding:10px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px))}
+.timer-pill{display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 8px;max-width:100%;background:var(--neon);color:var(--white);font-weight:800;font-size:14px;line-height:1.3;padding:8px clamp(14px,6vw,2cm);border-radius:14px;box-shadow:0 0 0 1px rgba(255,255,255,.18) inset,0 0 18px rgba(184,38,255,.75),0 0 40px rgba(184,38,255,.35)}
+.timer-pill b{font-family:var(--f-display);font-size:18px;font-variant-numeric:tabular-nums}
+.timer-box{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px;background:var(--plum);color:var(--white);border-radius:14px;padding:12px 14px;font-weight:800;font-size:15px;text-align:center}
+.timer-box b{font-family:var(--f-display);font-size:24px;color:var(--yellow);font-variant-numeric:tabular-nums}
 .sticky .cta{padding:14px 12px;font-size:16px;border-radius:14px;box-shadow:none}
 
 @media (min-width:760px){
@@ -203,7 +210,8 @@ footer .wrap{gap:10px}
 </head>
 <body>
 
-<div class="topbar">PRECIO DE LANZAMIENTO · <b>90% OFF</b> · PAGO ÚNICO DE $9,90</div>
+<div class="topbar"><span class="topbar-pill">PRECIO DE LANZAMIENTO · <b>95% OFF</b> · PAGO ÚNICO DE $9,90</span></div>
+<div class="timerbar"><span class="timer-pill">✅ Oferta de plan personalizado válida por: <b data-timer>15:00</b></span></div>
 
 <!-- HERO -->
 <section class="band hero">
@@ -266,7 +274,7 @@ footer .wrap{gap:10px}
       <li>Quieres entrenar en casa, sin pesas pesadas</li>
       <li>Eres principiante y necesitas un paso a paso guiado</li>
     </ul>
-    <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V">Sí, quiero empezar hoy <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10">Sí, quiero empezar hoy <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
   </div>
 </section>
 
@@ -353,7 +361,8 @@ footer .wrap{gap:10px}
           <div class="once">Pago único · sin mensualidades</div>
           <p class="save">Ahorras $201,10 con el precio de lanzamiento</p>
         </div>
-        <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V">Sí, quiero mi acceso por $9,90 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="timer-box">✅ Oferta de plan personalizado válida por: <b data-timer>15:00</b></div>
+        <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10">Sí, quiero mi acceso por $9,90 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         <div class="trust"><span>Acceso inmediato al email</span><span>Pago 100% seguro</span><span>Garantía de 7 días</span></div>
       </div>
     </div>
@@ -404,7 +413,7 @@ footer .wrap{gap:10px}
   <div class="wrap center">
     <h2>Tus glúteos más firmes y elevados empiezan <em>hoy</em></h2>
     <p class="lead">8 a 10 minutos al día, desde casa, por un pago único de $9,90.</p>
-    <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V">Quiero empezar el protocolo <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10">Quiero empezar el protocolo <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     <div class="trust"><span>Acceso inmediato</span><span>Pago seguro</span><span>Garantía de 7 días</span></div>
   </div>
 </section>
@@ -418,8 +427,8 @@ footer .wrap{gap:10px}
 
 <div class="sticky" id="sticky" aria-hidden="true">
   <div class="in">
-    <div class="p"><s>$97,00</s><b>$9,90</b></div>
-    <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V" tabindex="-1">Quiero mi protocolo</a>
+    <div class="p"><s>$211,00</s><b>$9,90</b></div>
+    <a class="cta" data-checkout href="https://pay.hotmart.com/D108297056V?off=c5frgv35&amp;checkoutMode=10" tabindex="-1">Quiero mi protocolo</a>
   </div>
 </div>
 
@@ -438,6 +447,23 @@ footer .wrap{gap:10px}
       try { if (window.fbq) fbq("trackCustom", "ClickCheckout", {value: 9.90, currency: "USD"}); } catch(e){}
     });
   });
+  // Cronómetro de 15 minutos por visitante (no se reinicia al recargar; vuelve a empezar después de 24 h).
+  var KEY = "pgb_deadline", MS = 15 * 60 * 1000, end = 0, now = Date.now();
+  try { end = parseInt(localStorage.getItem(KEY), 10) || 0; } catch (e) {}
+  if (!end || now - end > 24 * 3600 * 1000) {
+    end = now + MS;
+    try { localStorage.setItem(KEY, String(end)); } catch (e) {}
+  }
+  var timers = document.querySelectorAll("[data-timer]");
+  function tick() {
+    var left = Math.max(0, end - Date.now());
+    var m = Math.floor(left / 60000), sec = Math.floor((left % 60000) / 1000);
+    var txt = (m < 10 ? "0" : "") + m + ":" + (sec < 10 ? "0" : "") + sec;
+    timers.forEach(function (el) { el.textContent = txt; });
+    if (left <= 0) clearInterval(iv);
+  }
+  var iv = setInterval(tick, 1000);
+  tick();
   // CTA fijo: aparece después del hero y se oculta sobre la oferta.
   var sticky = document.getElementById("sticky");
   var hero = document.querySelector(".hero");
